@@ -18,7 +18,7 @@ spec:
  - ReadWriteMany
  storageClassName: boldreports-storageclass
  hostPath:
-   path: "/run/desktop/mnt/host/d/app3/shared"
+   path: "/run/desktop/mnt/host/d/app/shared"
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
