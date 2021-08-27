@@ -24,9 +24,9 @@ spec:
             memory: 750Mi
         env:
         - name: APP_BASE_URL
-          value: "http://host.docker.internal"
+          value: "<application_base_url>"
         - name: INSTALL_OPTIONAL_LIBS
-          value: "phantomjs"
+          value: "<comma_separated_library_names>"
         readinessProbe:
           httpGet:
             path: /health-check
